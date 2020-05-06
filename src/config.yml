@@ -1,0 +1,20 @@
+###################################################################################
+#                                                                                 #
+# cTua's better than y'all fucking dumbass italian developers - 5 minute plugin   #
+# Placeholders:                                                                   #
+# %player% - player name                                                          #
+# %ping% - player ping                                                            #
+#                                                                                 #
+###################################################################################
+
+OPTIONS:
+  pingSpoof: true
+  pingInChunk: true
+  pingDifference: true
+
+MESSAGES:
+  u-gotta-be-a-player-nigga: "&cDevi essere un player per eseguire questo comando!"
+  pingMessage: "&eYour Ping: &a%ping%"
+  pingMessageOther: "&f%player%&e's Ping: &a%ping%"
+  pingDifference: ""
+  playersInChunk: "&bEcco a te il ping di tutti i player nel tuo chunk:"
